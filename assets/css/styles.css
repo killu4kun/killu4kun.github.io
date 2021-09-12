@@ -541,12 +541,10 @@ header {
   background-color: var(--first-color);
   transform: translate(6px, -7px);
 }
-.qualification [data-content] {
-  display: none;
-}
-.qualification__active [data-content] {
+
+/*.qualification__active [data-content] {
   display: block;
-}
+}*/
 .qualification__button .qualification__active {
   color: var(--first-color);
 }
@@ -1033,6 +1031,8 @@ header {
 
   .home__blob{
     width: 270px;
+    margin-top: -250px;
+    margin-left: 50px;
   }
 
   .home__scroll{
@@ -1144,7 +1144,7 @@ header {
     padding: 0;
   }
   .home__blob{
-    width: 320px;
+    width: 520px;
   }
 
   .home__social{

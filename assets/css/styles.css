@@ -394,6 +394,9 @@ header {
 .skills__container {
   row-gap: 0;
 }
+.skills {
+  text-align: center;
+}
 .skills__header {
   display: flex;
   align-items: center;
@@ -412,8 +415,11 @@ header {
   font-size: var(--h3-font-size);
 }
 .skills__subtitle {
+  display: flex;
   font-size: var(--small-font-size);
   color: var(--text-color-light);
+  text-align: center;
+  
 }
 .skills__arrow {
   margin-left: auto;
